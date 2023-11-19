@@ -1,0 +1,40 @@
+body {
+    background: teal;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+    margin-top: 20px;
+}
+img {
+    object-fit: cover;
+}
+.grid > article {
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+    text-align: center;
+    background: whitesmoke;
+    width: 300px;
+    transition: transform;
+}
+.grid > article img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.konten {
+    text-transform: uppercase;
+    padding-bottom: 200px;
+}
+.grid > article:hover {
+    transform: scale(1.2);
+    
+
+}
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    
+}
